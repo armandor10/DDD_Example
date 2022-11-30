@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>hey_url_challenge_code_dotnet.Application</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Microsoft.EntityFrameworkCore" />
+    <None Remove="Commands\" />
+    <None Remove="Queries\" />
+    <None Remove="Handlers\" />
+    <None Remove="DTOs\" />
+    <None Remove="MediatR" />
+    <None Remove="MediatR.Extensions.Microsoft.DependencyInjection" />
+    <None Remove="Queries\Url\" />
+    <None Remove="Handlers\Url\" />
+    <None Remove="Commands\Url\" />
+    <None Remove="Commands\Visits\" />
+    <None Remove="Queries\Visits\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.7" />
+    <PackageReference Include="MediatR" Version="11.1.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\hey-url-challenge-code-dotnet.Domain\hey-url-challenge-code-dotnet.Domain.csproj" />
+    <ProjectReference Include="..\hey-url-challenge-code-dotnet.Infra.Data\hey-url-challenge-code-dotnet.Infra.Data.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Commands\" />
+    <Folder Include="Queries\" />
+    <Folder Include="Handlers\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="Queries\Url\" />
+    <Folder Include="Handlers\Url\" />
+    <Folder Include="Commands\Url\" />
+    <Folder Include="Commands\Visits\" />
+    <Folder Include="Queries\Visits\" />
+  </ItemGroup>
+</Project>

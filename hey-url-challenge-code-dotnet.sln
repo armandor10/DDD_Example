@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hey-url-challenge-code-dotnet", "hey-url-challenge-code-dotnet\hey-url-challenge-code-dotnet.csproj", "{C673D8C3-FE4F-465C-9457-3A9E08ADE305}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tests", "tests\tests.csproj", "{5399632D-585A-4CA3-B9BE-A4C2559D6DEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EEF9DBB3-847A-427F-98FE-E431729F938C}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		CHALLENGE.md = CHALLENGE.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hey-url-challenge-code-dotnet.Application", "hey-url-challenge-code-dotnet.Application\hey-url-challenge-code-dotnet.Application.csproj", "{9CC377A9-D57B-4E21-A6E9-EC312B96C8A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hey-url-challenge-code-dotnet.Domain", "hey-url-challenge-code-dotnet.Domain\hey-url-challenge-code-dotnet.Domain.csproj", "{9A085E30-F557-4597-83E4-E5ADA28D5C3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hey-url-challenge-code-dotnet.Infra.Data", "hey-url-challenge-code-dotnet.Infra.Data\hey-url-challenge-code-dotnet.Infra.Data.csproj", "{B8EE6199-4852-482B-8C66-1432B7E41A12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hey-url-challenge-code-dotnet.Infra.DataContract", "hey-url-challenge-code-dotnet.Infra.DataContract\hey-url-challenge-code-dotnet.Infra.DataContract.csproj", "{09E07635-5281-4049-95CF-ABB48C0DFA32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hey-url-challenge-code-dotnet.Commons", "hey-url-challenge-code-dotnet.Commons\hey-url-challenge-code-dotnet.Commons.csproj", "{E2803344-2B9C-4D2A-BB73-1C459E968732}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{28DC8564-BC24-4812-A926-08F9D9988B8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hey_url_challenge_code_dotnet.Domain.Tests", "tests\hey_url_challenge_code_dotnet.Domain.Tests\hey_url_challenge_code_dotnet.Domain.Tests.csproj", "{A71569FA-CEE0-4955-8FE7-77D282419CF9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C673D8C3-FE4F-465C-9457-3A9E08ADE305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C673D8C3-FE4F-465C-9457-3A9E08ADE305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C673D8C3-FE4F-465C-9457-3A9E08ADE305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C673D8C3-FE4F-465C-9457-3A9E08ADE305}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5399632D-585A-4CA3-B9BE-A4C2559D6DEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5399632D-585A-4CA3-B9BE-A4C2559D6DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5399632D-585A-4CA3-B9BE-A4C2559D6DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5399632D-585A-4CA3-B9BE-A4C2559D6DEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CC377A9-D57B-4E21-A6E9-EC312B96C8A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CC377A9-D57B-4E21-A6E9-EC312B96C8A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CC377A9-D57B-4E21-A6E9-EC312B96C8A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CC377A9-D57B-4E21-A6E9-EC312B96C8A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A085E30-F557-4597-83E4-E5ADA28D5C3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A085E30-F557-4597-83E4-E5ADA28D5C3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A085E30-F557-4597-83E4-E5ADA28D5C3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A085E30-F557-4597-83E4-E5ADA28D5C3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8EE6199-4852-482B-8C66-1432B7E41A12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8EE6199-4852-482B-8C66-1432B7E41A12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8EE6199-4852-482B-8C66-1432B7E41A12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8EE6199-4852-482B-8C66-1432B7E41A12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09E07635-5281-4049-95CF-ABB48C0DFA32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09E07635-5281-4049-95CF-ABB48C0DFA32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09E07635-5281-4049-95CF-ABB48C0DFA32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09E07635-5281-4049-95CF-ABB48C0DFA32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2803344-2B9C-4D2A-BB73-1C459E968732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2803344-2B9C-4D2A-BB73-1C459E968732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2803344-2B9C-4D2A-BB73-1C459E968732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2803344-2B9C-4D2A-BB73-1C459E968732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A71569FA-CEE0-4955-8FE7-77D282419CF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A71569FA-CEE0-4955-8FE7-77D282419CF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A71569FA-CEE0-4955-8FE7-77D282419CF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A71569FA-CEE0-4955-8FE7-77D282419CF9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55DBE199-5033-4095-A89D-B2255A026430}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A71569FA-CEE0-4955-8FE7-77D282419CF9} = {28DC8564-BC24-4812-A926-08F9D9988B8A}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>hey_url_challenge_code_dotnet.Infra.DataContract</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Microsoft.EntityFrameworkCore" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.7" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\hey-url-challenge-code-dotnet.Commons\hey-url-challenge-code-dotnet.Commons.csproj" />
+    <ProjectReference Include="..\hey-url-challenge-code-dotnet.Domain\hey-url-challenge-code-dotnet.Domain.csproj" />
+  </ItemGroup>
+</Project>
